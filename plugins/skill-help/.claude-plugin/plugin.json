@@ -2,5 +2,10 @@
   "name": "skill-help",
   "version": "0.1.0",
   "description": "Show the usage, flags and arguments of any Claude Code skill, slash command or plugin.",
-  "author": { "name": "Kayaba-Attribution" }
+  "author": {
+    "name": "Kayaba-Attribution"
+  },
+  "homepage": "https://github.com/Kayaba-Attribution/claude-code-skill-help",
+  "repository": "https://github.com/Kayaba-Attribution/claude-code-skill-help",
+  "license": "MIT"
 }
