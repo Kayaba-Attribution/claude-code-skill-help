@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-code-skill-help",
+  "owner": {
+    "name": "Kayaba-Attribution"
+  },
+  "metadata": {
+    "description": "See the usage, flags and arguments of any Claude Code skill, slash command or plugin.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-help",
+      "description": "Show the usage, flags and arguments of any installed Claude Code skill, slash command or plugin — the slash-command menu only shows a truncated one-line description, and there is no built-in way to see a single skill's interface. Resolves user, project and plugin-provided entries across both the skills/ and commands/ layouts, lists everything with full untruncated descriptions, and documents how to make your own skills self-describing with the argument-hint frontmatter field.",
+      "version": "0.1.0",
+      "author": { "name": "Kayaba-Attribution" },
+      "category": "productivity",
+      "source": "./plugins/skill-help"
+    }
+  ]
+}
