@@ -59,6 +59,11 @@ passed straight through, so `/your-skill --help` then costs nothing and does not
 Don't add hints to plugins you don't own: the installed copy sits under a version-pinned path,
 so edits are discarded on the next plugin update.
 
+## Privacy
+
+No telemetry, no analytics, nothing reported to the author. See
+[PRIVACY.md](PRIVACY.md) for exactly what leaves your machine and what stays local.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
