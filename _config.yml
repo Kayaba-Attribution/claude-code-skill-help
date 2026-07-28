@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: Claude Code skill help
+description: See the usage, flags and arguments of any Claude Code skill, slash command or plugin.
+show_downloads: false
